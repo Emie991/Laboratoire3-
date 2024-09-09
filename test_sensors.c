@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int main() 
+{
     // Appel du script pour vérifier le baromètre
     printf("Vérification du baromètre...\n");
     system("./barometer_check.sh");
